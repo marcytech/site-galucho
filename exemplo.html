@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Z-index</title>
+        <style type="text/css">
+        #bloco1, #bloco2, #bloco3{
+            position: absolute;
+            width: 200px;
+            height: 300px;
+            font-size:36px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #fff;
+            line-height: 300px;
+        }
+        #bloco1{
+            background:#0000ff;
+            top:0;
+            left:0;
+            z-index: 3;
+        }
+        #bloco2{
+            background-color:#00ff00;
+            top:100px;
+            left:100px;
+            z-index: 2;
+        }
+        #bloco3{
+            background-color:#ff0000;
+            top:200px;
+            left:200px;
+            z-index: 1;
+        }   
+        </style>
+    </head>
+    <body>
+        <div id="bloco1">BLOCO 1</div>
+        <div id="bloco2">BLOCO 2</div>
+        <div id="bloco3">BLOCO 3</div>
+    </body>
+</html>

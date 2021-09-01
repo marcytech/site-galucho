@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medias queries</title>
+    <style type="text/css">
+        body {
+            background: #a5c8de;
+        }
+
+        #largura-1 {
+            background: none;
+        }
+
+        p {
+            padding: 20px;
+            font: bold 18px arial sans-serif;
+            color: #ffff;
+            text-shadow: 2px 3px 2px #a5c8de;
+            border: 1px dotted #000000;
+        }
+
+        @media only screen and (min-width:480px) {
+            #largura-2 {
+                background: #297802;
+            }
+        }
+
+        @media only screen and (min-width:760px) {
+            #largura-3 {
+                background: #d30000;
+            }
+        }
+
+        @media only screen and (min-width:900px) {
+            #largura-4 {
+                background: #1e00d3;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p id="largura-1">Todas as cores do bloco desaparecem quando a largura 480 pixels</p>
+    <p id="largura-2">A cor de fundo verde aparece quandoa largura é de no minimo 480 pixels</p>
+    <p id="largura-3">A cor de fundo vermelha aparece quando a largura é de no mínino 760 pixels </p>
+    <p id="largura-4">A cor de fundo azul aparece quando a largura de de no mínimo 900 pixels</p>
+</body>
+
+</html>

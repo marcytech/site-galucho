@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Overflow</title>
+        <style type="text/css">
+         div{
+             background-color: dimgrey;
+             margin-left: 20px;
+             float: left;
+             width: 192px;
+             height: 400px;
+             padding: 20px;
+             font: 16px,sans-serif;
+             text-align:justify ;
+            }
+            .visible{
+                overflow: visible;
+            }
+            .hidden{
+                overflow: hidden;
+            }
+            .scroll{
+                overflow: scroll;
+            }
+            .auto{
+                overflow: auto;
+            }
+            .scroll p, .altura p{
+                width: 50px;
+            }
+            .altura{
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="visible">
+            <h2>visible padrao</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, odit.</p>
+        </div>
+        <div class="hidden">
+            <h2>hidden</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam aut sequi fugiat consequuntur, suscipit nam atque laborum cum! Vel, id.</p>
+        </div>
+        <div class="scroll">
+            <h2>scroll</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam iste fugit suscipit voluptate eius ullam tempora exercitationem. Voluptate, tenetur incidunt.</p>
+        </div>
+        <div class="auto">
+            <h2>auto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nisi?</p>
+        </div>
+        <div classscroll p, .altura p>
+            <h2>scroll p, .altura p</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ullam.</p>
+        </div>
+
+
+    </body>

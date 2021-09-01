@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+}
+article,
+aside,
+details,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  background: url("./img/bg2.png") repeat rgb(187, 187, 248);
+  font: 16px tahoma Arial sans-ferif;
+  color: #444444;
+}
+.container {
+  margin: 0 auto;
+  width: 252px;
+  position: relative;
+  background: #ece5ce;
+  border-left: 1px solid #9b9d92;
+  border-right: 1px solid #9b9d92;
+}
+#barra-social {
+  overflow: hidden;
+  position: relative;
+  background: url(img/transparent-dark.png);
+  border-bottom: 1px solid #f4f3ea;
+  padding-top: 14px;
+  padding-bottom: 9px;
+}
+#barra-social ul {
+  width: 126px;
+  margin: 0 auto;
+  text-align: center;
+}
+#barra-social li {
+  display: inline-block;
+}
+
+nav {
+  background-color: url(img/nav-top.png) repeat-x top left;
+  position: relative;
+  margin: 0 0 25px 0;
+  padding: 28px 0 20px;
+  border-bottom: 1px solid #9d9b92;
+}
+#nav {
+  display: none;
+}
+#comboNav {
+  background: #9b9d92;
+  width: 212px;
+  margin: 10px auto;
+  padding: 4px;
+  display: block;
+  font-size: 16px;
+  color: #ffff;
+  text-indent: 15px;
+  border-radius: 3px;
+}
+header #logo {
+  margin: 20px 0 30px;
+}
+header #logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+#slogan {
+  padding-top: 9%;
+  font: 400 20px / normal "josefin sans" sans-serif;
+  color: #ffff;
+  text-shadow: 0 1px 0 #9d9b92;
+  position: relative;
+}
+
+#slogan .ribbon-right {
+  background: url("img/ribbon-right.png") no-repeat;
+  right: -56px;
+}
+#slogan .ribbon-left {
+  background: url("img/ribbon-left.png") no-repeat;
+  left: -56px;
+}
+#slogan .ribbon-right,
+#slogan .ribbon-left {
+  position: absolute;
+  width: 56px;
+  height: 92px;
+  top: -18px;
+}
+#slogan .ribbon {
+  background: #e37665;
+  min-height: 92px;
+  text-align: center;
+  padding: 2%;
+}
+#slogan + p {
+  padding: 15px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vcard {
+  background: #4d4d4d;
+  position: relative;
+  padding: 20px;
+  font-size: 14px;
+  color: #f1f1f1;
+  line-height: 20px;
+  clear: both;
+}
+.vcard h2 {
+  border-bottom: 1px dotted #ffff;
+  font: 400 18px/20px, "josefins-sans" sans- serif;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.vcard ul li {
+  margin: 10px;
+  text-align: center;
+}
+.vcard ul li a {
+  text-decoration: none;
+  color: #e9ca19;
+}
+.vcard ul li a:hover {
+  text-decoration: underline;
+}
+.vcard p {
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+  border-top: 1px dotted #ffffff;
+}
