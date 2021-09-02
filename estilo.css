@@ -21,8 +21,10 @@ body {
   color: #444444;
 }
 .container {
+  margin: 0 auto !important;
+  width: calc(100% - 150px);
+  max-width: 980px;
   margin: 0 auto;
-  width: 252px;
   position: relative;
   background: #ece5ce;
   border-left: 1px solid #9b9d92;
@@ -142,4 +144,11 @@ header #logo img {
   padding-top: 15px;
   text-align: center;
   border-top: 1px dotted #ffffff;
+}
+
+@media only screen and (min-width: 480px) {
+  .corpo {
+    max-width: 980px;
+    width: 93%;
+  }
 }
